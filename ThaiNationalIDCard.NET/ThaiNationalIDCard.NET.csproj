@@ -4,11 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Pichid Detson</Authors>
     <PackageId>ThaiNationalIDCard.NET</PackageId>
-    <Product>Thai National ID Card Reader</Product>
+    <Product>ThaiNationalIDCard.NET</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Thai National ID Card Reader for .NET</Description>
     <PackageProjectUrl>https://github.com/bencomtech/ThaiNationalIDCard.NET</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bencomtech/ThaiNationalIDCard.NET</RepositoryUrl>
+    <Copyright />
   </PropertyGroup>
 
   <ItemGroup>
