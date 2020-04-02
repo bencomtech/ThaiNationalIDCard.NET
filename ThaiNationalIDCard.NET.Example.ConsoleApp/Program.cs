@@ -15,6 +15,7 @@ namespace ThaiNationalIDCard.NET.Example.ConsoleApp
                 Console.WriteLine($"CitizenID: {personalPhoto.CitizenID}");
                 Console.WriteLine($"ThaiPersonalInfo: {personalPhoto.ThaiPersonalInfo}");
                 Console.WriteLine($"EnglishPersonalInfo: {personalPhoto.EnglishPersonalInfo}");
+                Console.WriteLine($"DateOfBirth: {personalPhoto.DateOfBirth}");
                 Console.WriteLine($"Sex: {personalPhoto.Sex}");
                 Console.WriteLine($"AddressInfo: {personalPhoto.AddressInfo}");
                 Console.WriteLine($"IssueDate: {personalPhoto.IssueDate}");

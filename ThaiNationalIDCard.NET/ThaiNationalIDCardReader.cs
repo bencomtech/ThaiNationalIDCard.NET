@@ -100,6 +100,13 @@ namespace ThaiNationalIDCard.NET
 
                 personal.ThaiPersonalInfo = new PersonalInfo(thaiPersonalInfo);
                 personal.EnglishPersonalInfo = new PersonalInfo(englishPersonalInfo);
+
+                string dateOfBirth = personalInfo.Substring(200, 8);
+                personal.DateOfBirth = new DateTime(Convert.ToInt32(dateOfBirth.Substring(0, 4)) - 543
+                    , Convert.ToInt32(dateOfBirth.Substring(4, 2))
+                    , Convert.ToInt32(dateOfBirth.Substring(6, 2))
+                );
+
                 personal.Sex = personalInfo.Substring(208, 1);
 
                 string addressInfo = GetUTF8FromAsciiBytes(SendCommand(apdu.AddressInfoCommand));
